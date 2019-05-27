@@ -1,0 +1,7 @@
+#question : Python program that accepts a word from the user and reverse it:
+a=input("enter the word ")     #taking user input
+l=len(a)
+print(l)
+for i in range(l-1,0,-1):
+    print(a[i],end='')
+a[0]  
