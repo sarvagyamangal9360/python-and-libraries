@@ -1,0 +1,3 @@
+command for built in fuctions in python is
+
+dir(__builtins__)
