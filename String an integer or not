@@ -1,0 +1,7 @@
+quetion::Python program to check a string represent an integer or not::
+
+a = input("Input a string:")
+if all(a[i] in "0123456789" for i in range(len(a))):
+        print("The string is an integer.")
+else:
+     print("The string is not an integer.") 
