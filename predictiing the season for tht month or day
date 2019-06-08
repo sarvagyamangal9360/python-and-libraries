@@ -1,0 +1,24 @@
+ Python program that reads two integers representing a month and day and prints the season for that month and day.
+ 
+ month = input("Input the month:")
+day = int(input("Input the day[1-31]:"))
+
+if month in ('DEcember','January', 'February', 'March'):
+	season = 'winter'
+elif month in ('April', 'May', 'June','July'):
+	season = 'summer'
+elif month in ( 'August', 'September'):
+	season = 'rainy'
+else:
+	season = 'autumn'
+
+if (month == 'March') and (day > 30):
+	season = 'summer'   
+elif (month == 'July') and (day > 30):
+	season = 'rainy'   
+elif (month == 'September') and (day > 21):
+	season = 'autumn'
+elif (month == 'November') and (day > 25):
+	season = 'winter'
+print("season is ",season)    
+ 
